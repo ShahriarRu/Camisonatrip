@@ -1,0 +1,38 @@
+.mainbody {
+  height: 95vh;
+  overflow-y: unset;
+}
+.footer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+
+.slide {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 550px) {
+  .footer {
+
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+};

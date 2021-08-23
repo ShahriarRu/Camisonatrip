@@ -1,0 +1,59 @@
+.imgupload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    font-size: 25px;
+}
+
+.imgupload div label {
+    margin-left: 0.7rem;
+    margin-right: 1.7rem;
+    font-weight: bold;
+}
+
+
+.btns {
+    margin-bottom: 2rem;
+    width: 24rem;
+  }
+  
+  .btns button.upload {
+    font: inherit;
+    font-weight: bold;
+    background: #007bff;
+    border: 1px solid #007bff;
+    padding: 0.5rem 1.5rem;
+    color: rgb(247, 242, 242);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .btns button:focus {
+    outline: none;
+  }
+  
+  .btns button:disabled {
+    background: gray;
+    border: 1px solid gray;
+    color: white;
+    cursor: auto;
+  }
+
+  .btns button:hover{
+    color: #007bff;
+    background: white;
+    font-weight: bold;
+  }
+
+  .btns button:disabled:hover {
+    background: gray;
+    cursor: auto;
+    color: white;
+
+  }

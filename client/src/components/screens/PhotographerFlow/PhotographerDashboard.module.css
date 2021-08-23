@@ -1,0 +1,59 @@
+.body {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.body div.img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.btns {
+  margin-bottom: 2rem;
+  width: 14rem;
+}
+
+.btns button.login {
+  font: inherit;
+  font-weight: bold;
+  background: #007bff;
+  border: 1px solid #007bff;
+  padding: 0.5rem 1.5rem;
+  color: rgb(247, 242, 242);
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.btns button.signup {
+  font: inherit;
+  font-weight: bold;
+  background: #f9fafc;
+  border: 1px solid #007bff;
+  padding: 0.5rem 1.5rem;
+  color: #007bff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.btns button:focus {
+  outline: none;
+}
+.btns button:hover,
+.btns button:active {
+  color: #007bff;
+  background: white;
+  font-weight: bold;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.26);
+}

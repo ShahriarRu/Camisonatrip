@@ -1,0 +1,55 @@
+/* 1.1  Splash Screen */
+.con {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(
+    579.17% 50% at 50% 50%,
+    rgba(143, 148, 251, 0.99) 0%,
+    rgba(78, 84, 200, 0.99) 100%
+  );
+}
+
+.con h1 {
+    margin: 2.5rem;
+    font-family: El Messiri, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 86px;
+    /* identical to box height */
+  
+    text-align: center;
+    letter-spacing: -0.333333px;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+  }
+
+
+
+
+@media only screen and (max-width: 374px) {
+    .con img {
+        height: 50%; 
+        width: 80%;
+    }
+    .con h1 {
+        font-size: 45px;
+        margin: 0.5rem;
+      }
+    
+};
+
+
+
+
+
+
+
+
+

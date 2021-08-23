@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^5.8.5",
+    "@google-cloud/vision": "^2.3.5",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "firebase-admin": "^9.10.0",
+    "got": "^11.8.2",
+    "http": "0.0.1-security",
+    "image-size": "^1.0.0",
+    "pureimage": "^0.3.2",
+    "qs": "^6.10.1",
+    "react-csv": "^2.0.3",
+    "react-simple-image-slider": "^2.1.2",
+    "react-simple-star-rating": "^3.0.0",
+    "react-slick": "^0.28.1",
+    "react-stars": "^2.2.5",
+    "rgb-to-hex": "0.0.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "engines": {
+    "node": "14.17.1"
+  }
+}
